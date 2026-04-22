@@ -1,7 +1,7 @@
-﻿using BackendCreditCards.Models;
+﻿using BackendCreditCards.BackendCreditCards.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace BackendCreditCards
+namespace BackendCreditCards.BackendCreditCards.Infrastructure.Repository
 {
     public class ApplicationDBContext: DbContext
     {

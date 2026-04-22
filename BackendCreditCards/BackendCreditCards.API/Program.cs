@@ -7,7 +7,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace BackendCreditCards
+namespace BackendCreditCards.BackendCreditCards.API
 {
     public class Program
     {

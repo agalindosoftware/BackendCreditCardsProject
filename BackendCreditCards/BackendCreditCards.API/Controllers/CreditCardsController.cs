@@ -1,14 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using BackendCreditCards;
-using BackendCreditCards.Models;
+using BackendCreditCards.BackendCreditCards.Domain.Entities;
+using BackendCreditCards.BackendCreditCards.Infrastructure.Repository;
 
-namespace BackendCreditCards.Controllers
+
+namespace BackendCreditCards.BackendCreditCards.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
@@ -104,5 +103,7 @@ namespace BackendCreditCards.Controllers
         {
             return _context.CreditCard.Any(e => e.Id == id);
         }
+
+
     }
 }
