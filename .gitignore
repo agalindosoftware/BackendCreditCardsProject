@@ -361,3 +361,6 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/BackendCreditCards/BackendCreditCards.Infrastructure/Migrations/20250216223033_Inicial.Designer.cs
+/BackendCreditCards/BackendCreditCards.Infrastructure/Migrations/20250216223033_Inicial.cs
+/BackendCreditCards/BackendCreditCards.API/appsettings.json
